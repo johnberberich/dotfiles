@@ -1,0 +1,22 @@
+# OS generated files
+.DS_Store*
+
+# Compiler-generated files
+*.pyc
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.orig
+
+# IDE files and directories
+*.sublime-*
+
+/.vagrant
+
