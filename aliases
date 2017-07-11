@@ -1,0 +1,38 @@
+# Finder
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder"
+
+# Git aliases
+alias gst="git status -sb"
+alias gdc="git diff --cached"
+alias glog="git glog"
+
+# PHP aliases
+alias a="php artisan"
+alias t="php artisan tinker"
+alias cdump="composer dumpautoload"
+alias phpcs="phpcs --standard=PSR2"
+
+# Docker aliases
+alias dm="docker-machine"
+alias dmls="docker-machine ls"
+alias dmup="docker-machine start"
+alias dmdn="docker-machine stop"
+alias fig="docker-compose"
+
+# Vagrant aliases
+alias vup="vagrant up"
+alias vdn="vagrant halt"
+alias vst="vagrant status"
+alias vgst="vagrant global-status"
+alias vsh="vagrant ssh"
+alias vre="vagrant reload"
+alias vrm="vagrant destroy"
+alias vrmf="vagrant destroy --force"
+
+# Misc aliases
+alias tn="tmux new"
+alias h="heroku"
+alias todo="todo.sh"
+alias tree="tree -C"
+
